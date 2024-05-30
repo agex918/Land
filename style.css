@@ -1,0 +1,809 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EBF0FF;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+/* HEADER */
+
+header {
+    margin: 51px 16px 0;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    z-index: 1;
+}
+
+.logo span {
+    font-weight: 700;
+    font-size: 24px;
+    z-index: 2;
+    position: relative;
+    bottom: 2px;
+    left: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav ul li {
+    margin-right: 32px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #515151;
+}
+
+.nav-btn a {
+    text-decoration: none;
+    color: #101010;
+    background-color: #F0B80D;
+    border: 1px solid #FFD24B;
+    padding: 16px 32px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+
+/* HERO */
+
+
+
+.hero-area {
+    margin: 114px 8.25px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-l {
+    position: relative;
+    z-index: 2;
+}
+
+.circle-y {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background: radial-gradient(50% 50% at 50% 50%, #FFDF7C 0%, rgba(246, 251, 248, 0.00) 100%);
+    z-index: -1;
+    top: 300px;
+    right: 420px;
+}
+
+
+
+.hero-l h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+    margin: 0 0 64px 0;
+}
+
+.hero-l h3 span {
+    color: #5380EA;
+    position: relative;
+}
+
+.circle-b {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: -3;
+    background: radial-gradient(50% 50% at 50% 50%, #B9CEEA 0%, rgba(246, 251, 248, 0.00) 100%);
+    top: -60px;
+    right: -23px;
+    opacity: 80%;
+}
+
+.hero-l-img {
+    width: fit-content;
+    top: 12px;
+    left: 0;
+    position: absolute;
+}
+
+.comment {
+    background-color: #fff;
+    width: fit-content;
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.comment-b {
+    width: 577px;
+    height: 73px;
+    border-radius: 10px;
+    background: linear-gradient(#F6FBF8 10%, rgba(246, 251, 248, 0));
+}
+
+.comment-flex {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 42px 24px 24px;
+}
+
+.comment img {
+    padding: 2px 24px 3px 0;
+}
+
+.p-topic {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.p-descr {
+    font-size: 16px;
+    font-weight: 500;
+    color: #515151;
+    width: max-content;
+}
+
+.hero-r {
+    position: relative;
+}
+
+.circle-y-2 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background: radial-gradient(50% 50% at 50% 50%, #FFDF7C 0%, rgba(246, 251, 248, 0.00) 100%);
+    z-index: -1;
+    bottom: 320px;
+    right: 260px;
+    opacity: 75%;
+}
+
+.circle-r {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background: radial-gradient(50% 50% at 50% 50%, #FAB7B8 0%, rgba(246, 251, 248, 0.00) 100%);
+    z-index: -2;
+    top: 100px;
+    right: 300px;
+    opacity: 48%;
+}
+
+.hero-r-img-1 {
+    width: 100%;
+}
+
+.hero-r-img-2 {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    z-index: 2;
+
+}
+
+/* SOCIAL */
+
+
+.social-area {
+    margin: 112px 0;
+}
+
+.benefits-area {
+    margin-bottom: 112px;
+}
+
+.benefits-flex {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+}
+
+.benefit span {
+    margin-right: 24px;
+}
+
+.ben-p1 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.ben-p2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #515151;
+    margin: 0;
+}
+
+.sponsors-topic {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.sponsors-topic h5 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 26px;
+}
+
+.sponsors-line {
+    left: -10px;
+    position: absolute;
+    top: 17.5px;
+}
+
+.sponsors-topic p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #515151;
+    margin: 0;
+    text-align: center;
+}
+
+.sponsors-pics {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.microsoft {
+    margin-left: 30px;
+}
+
+.form-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-l img {
+    width: 100%;
+}
+
+.form-r {
+    background-color: #fff;
+    border-radius: 10px;
+    height: fit-content;
+    width: 45%;
+}
+
+.form-r-content {
+    padding: 48px;
+}
+
+.form-r h5 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+.form-r p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #515151;
+    margin: 0;
+}
+
+.forms {
+    padding: 48px 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+}
+
+.contact-form label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    padding-bottom: 8px;
+}
+
+.contact-form label span {
+    color: #EB5939;
+}
+
+.form-input {
+    font-size: 16px;
+    font-weight: 500;
+    color: #AAA;
+    padding: 16px 0 16px 16px;
+    background-color: #F9FAFF;
+    border: 1px solid #DEE6FF;
+    border-radius: 5px;
+}
+
+.contact-btn a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 16px 72px;
+    background-color: #5380EA;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0px 10px 34px 0px rgba(83, 128, 234, 0.5);
+}
+
+.footer-line {
+    margin-left: 18px;
+    text-align: center;
+    margin-bottom: 32px;
+    width: 95%;
+    height: 1px;
+    color: rgba(156, 160, 255, 0);
+    background-color: #9CA0FF;
+}
+
+footer {
+    margin: 112px 16px 65px;
+}
+
+.footer-content {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn-1 a {
+    text-decoration: none;
+    color: #101010;
+    background-color: #F0B80D;
+    border: 1px solid #FFD24B;
+    padding: 16px 32px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0px 10px 34px 0px rgba(234, 197, 85, 1);
+}
+
+
+
+
+/* MEDIA----------------- */
+
+
+
+
+@media(max-width:1350px) {
+    .hero-l h3 {
+        font-size: 40px;
+    }
+
+    .comment img {
+        height: 62.9px;
+        width: 80px;
+    }
+
+    .comment-flex {
+        padding: 20px;
+    }
+
+    .p-topic {
+        font-size: 14px;
+        padding-bottom: 7px;
+    }
+
+    .p-descr {
+        font-size: 14px;
+    }
+
+    .comment-b {
+        width: 489px;
+    }
+
+    .hero-r-img-2 {
+        height: 625px;
+        width: 520px;
+    }
+
+    .circle-y-2 {
+        top: -120px;
+        right: 200px;
+    }
+
+    .hero-l h3 {
+        margin-left: 10px;
+    }
+
+    .comment {
+        margin-left: 10px;
+    }
+
+    .comment-b {
+        margin-left: 10px;
+    }
+
+    .hero-l-img {
+        left: -8px;
+    }
+
+    .benefits-area {
+        border-radius: 10px;
+        margin-bottom: 112px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .benefits-flex {
+        display: flex;
+        width: 94%;
+        border-radius: 10px;
+    }
+
+    .benefit {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .benefit span {
+        margin-right: 20px;
+    }
+
+    .ben-p1 {
+        font-size: 14px;
+        margin-bottom: 7.5px;
+    }
+
+    .ben-p2 {
+        font-size: 14px;
+    }
+
+    .form-r-content {
+        padding: 42.5px;
+    }
+
+    .form-r h5 {
+        font-size: 32px;
+        padding-bottom: 16px;
+    }
+
+    .form-r p {
+        font-size: 14px;
+    }
+
+    .contact-form label {
+        font-size: 14px;
+    }
+
+    .form-input {
+        font-size: 14px;
+    }
+
+    .contact-btn a {
+        font-size: 14px;
+        padding: 14px 63px;
+    }
+}
+
+@media(max-width:1150px) {
+    header {
+        justify-content: center;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav ul li a {
+        font-size: 14px;
+    }
+
+    .logo img {
+        width: 66.6px;
+        height: 25px;
+    }
+
+    .logo span {
+        font-size: 20px;
+    }
+
+    .nav-btn a {
+        padding: 13px 26px;
+        font-size: 14px;
+    }
+
+    .nav ul li {
+        margin-right: 20px;
+    }
+
+    .hero-l h3 {
+        margin-left: 20px;
+    }
+
+    .circle-y {
+        top: -20px;
+        left: -250px;
+    }
+
+    .comment {
+        margin-left: 5px;
+    }
+
+    .hero-l h3 {
+        margin-left: 10px;
+    }
+
+    .benefits-flex {
+        background-color: #fff0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefit {
+        width: 94%;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+        justify-content: center;
+    }
+
+    .twit {
+        width: 75px;
+        height: 62px;
+    }
+
+    .pref {
+        top: 140px;
+        left: 40%;
+        position: absolute;
+    }
+
+    .next {
+        top: 140px;
+        right: 40%;
+        position: absolute;
+    }
+
+    .microsoft {
+        margin-left: 50px;
+    }
+
+    .form-area {
+        padding-top: 50px;
+    }
+
+    .form-content {
+        flex-direction: column;
+    }
+
+    .form-l {
+        margin-bottom: 70px;
+    }
+
+    .form-r {
+        width: 72.5%;
+    }
+}
+
+@media(max-width:850px) {
+    .twit {
+        width: 65px;
+        height: 52px;
+    }
+
+    .micros {
+        width: 206px;
+        height: 48px;
+    }
+
+    .cok {
+        width: 230px;
+        height: 75px;
+    }
+
+    .microsoft {
+        margin-left: 30px;
+    }
+
+    /* .next{
+        transform: rotateZ(180deg);
+        left: ;
+    }
+
+    .pref{
+        transform: rotateZ(180deg);
+    } */
+}
+
+
+@media(max-width:600px) {
+    header {
+        flex-direction: column;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .hero-l h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    /* .hero-r-img-2{
+        width: 450px;
+        height: ;
+    } */
+
+    .comment {
+        width: 85%;
+    }
+
+    .comment-flex {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .comment-b {
+        width: 85%;
+    }
+
+    .p-descr {
+        width: 100%;
+    }
+
+    .comments {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-r-img-2 {
+        width: 380px;
+        height: 450px;
+    }
+
+    .nav.nav ul {
+        padding: 0 0 20px 20px;
+    }
+
+    .hero-l-img {
+        left: -5px;
+    }
+
+    .hero-l-img img {
+        width: 90px;
+    }
+
+    .benefit {
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .benefit span {
+        margin: 0;
+    }
+
+    .ben-p1 {
+        text-align: center;
+        padding: 0;
+    }
+
+    .ben-p2 {
+        text-align: center;
+    }
+
+    .microsoft {
+        margin: 0px;
+    }
+
+    .sponsors-pics {
+        flex-direction: column;
+        margin-top: 35px;
+    }
+
+    .microsoft,
+    .twitter,
+    .coke {
+        padding-bottom: 20px;
+    }
+
+    .next {
+        margin-top: 120px;
+    }
+
+    .pref {
+        margin-top: 120px;
+    }
+
+    .form-r-content {
+        padding: 35px;
+    }
+
+    .form-r h5 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .form-r p {
+        font-size: 13px;
+    }
+
+    .contact-form label {
+        font-size: 13px;
+    }
+
+    .form-input {
+        font-size: 13px;
+    }
+
+    .contact-btn a {
+        font-size: 13px;
+        padding: 13px 58, 5px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+    }
+
+}
